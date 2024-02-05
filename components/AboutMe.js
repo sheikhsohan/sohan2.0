@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="left">
         <div className="left_inner">
           <div className="image">
-            <img src="/img/thumbs/35-44.jpg" alt="image" />
+            <img src={"/img/thumbs/35-44.jpg"} alt="image" />
             <div className="main" data-img-url={aboutData.img} />
           </div>
           <div className="details">

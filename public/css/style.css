@@ -689,7 +689,7 @@ body.dark .loader_line:after {
   z-index: 5;
 }
 .iknow_tm_hero .right {
-  width: 50%;
+  width: 100%;
   padding-left: 230px;
 }
 .iknow_tm_hero .right .image {
