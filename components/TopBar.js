@@ -1,4 +1,4 @@
-import SocialIcons from "./SocialIcons";
+// import SocialIcons from "./SocialIcons";
 
 const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
   return (
@@ -15,7 +15,7 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
             </a>
           </div>
           <div className="right">
-            {topbarIcon && <SocialIcons />}
+            {/* {topbarIcon && <SocialIcons />} */}
             <div className="iknow_tm_button">
               <a href="img/cv/1.jpg" download>
                 Download CV

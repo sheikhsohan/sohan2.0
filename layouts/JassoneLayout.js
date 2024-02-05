@@ -1,7 +1,7 @@
 "use client";
 import CopyRightText from "@/components/CopyRightText";
 import Shapes from "@/components/Shapes";
-import SocialIcons from "@/components/SocialIcons";
+// import SocialIcons from "@/components/SocialIcons";
 import Jassone from "@/components/hero/Jassone";
 import { context } from "@/context/context";
 import { iKnowUtilits } from "@/utility";
@@ -119,7 +119,7 @@ const JassoneLayout = ({ darkLogo = true }) => {
           {/* TOPBAR */}
           <div className="topbar_extra">
             <div className="details">
-              <SocialIcons />
+              {/* <SocialIcons /> */}
               <div className="iknow_tm_button">
                 <a href="img/cv/1.jpg" download="">
                   Download CV
