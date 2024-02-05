@@ -5,8 +5,16 @@ const Portfolio = () => {
   const { setPortfolioModal, modalToggle } = useContext(context);
   const [active, setActive] = useState("all");
   const activeLi = (value) => (active == value ? "current" : "");
+  // const activeContent = (value) => {
+  //   return active === "all" || active === value ? "show" : "hidden";
+  // };
+
   const activeContent = (value) => {
-    return active === "all" || active === value ? "show" : "hidden";
+    if (active === "all" && (value === "wordpress" || value === "design")) {
+      return "hidden";
+    } else {
+      return active === "all" || active === value ? "show" : "hidden";
+    }
   };
 
   const handelClick = (value, e) => {
@@ -18,6 +26,8 @@ const Portfolio = () => {
       setActive(value);
     }, 0);
   };
+  
+  
 
   return (
     <div className="iknow_tm_portfolio">
@@ -60,9 +70,9 @@ const Portfolio = () => {
           <li>
             <a
               href="#"
-              className={activeLi("soundcloud")}
-              onClick={(e) => handelClick("soundcloud", e)}
-              data-filter=".soundcloud"
+              className={activeLi("design")}
+              onClick={(e) => handelClick("design", e)}
+              data-filter=".design"
             >
               Graphics Design
             </a>
@@ -70,9 +80,9 @@ const Portfolio = () => {
           <li>
             <a
               href="#"
-              className={activeLi("detail")}
-              onClick={(e) => handelClick("detail", e)}
-              data-filter=".detail"
+              className={("wordpress")}
+              onClick={(e) => handelClick("wordpress", e)}
+              data-filter=".wordpress"
             >
               WordPress
             </a>
@@ -143,9 +153,15 @@ const Portfolio = () => {
               </div>
               <a
                 className="iknow_tm_full_link"
-                href="https://musicapp-three.vercel.app/" target="_blank"
+                href="https://digital-agenci.vercel.app/" target="_blank"
               />
             </div>
+          </li>
+          <li className={`wordpress ${activeContent("wordpress")}`}>
+            <h3>Coming Soon...</h3>
+          </li>
+          <li className={`design ${activeContent("design")}`}>
+            <h3>Coming Soon...</h3>
           </li>
         </ul>
       </div>

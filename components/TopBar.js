@@ -8,9 +8,9 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
           <div className="logo">
             <a href="#">
               {darkLogo ? (
-                <img src="/img/logo/dark.png" alt="logo" />
+                <img src="/img/logo/logo.png" alt="logo" />
               ) : (
-                <img src="/img/logo/light.png" alt="logo" />
+                <img src="/img/logo/logo.png" alt="logo" />
               )}
             </a>
           </div>
