@@ -1,5 +1,5 @@
-import Cursor from "@/components/Cursor";
-import Preloader from "@/components/Preloader";
+// import Cursor from "@/components/Cursor";
+// import Preloader from "@/components/Preloader";
 import Popup from "@/components/popup/Popup";
 import "@css/dark.css";
 import "@css/plugins.css";
@@ -44,11 +44,11 @@ export default function RootLayout({ children }) {
       <body>
         <div className="iknow_tm_all_wrap" data-magic-cursor="show">
           <State>
-            <Preloader />
+            {/* <Preloader /> */}
             <Popup />
             {children}
           </State>
-          <Cursor />
+          {/* <Cursor /> */}
         </div>
       </body>
     </html>
