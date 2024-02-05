@@ -96,8 +96,8 @@ const state = (props) => {
       { id: 7, href: "contact", title: "Contact", icon: "letter" },
     ],
     aboutData: {
-      name: "Jessica Parker",
-      img: "/img/about/1.jpg",
+      name: "Hadiuzzaman (Sohan)",
+      img: "/img/hero/sohan.jpg",
       birthday: "April 2, 2001",
       nationality: "Bangladeshi",
       email: "princesohan751@gmail.com",
