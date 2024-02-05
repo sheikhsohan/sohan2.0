@@ -9,6 +9,7 @@ const Service = () => {
       icon: "web",
       desc: "Dive into the world of captivating web design with my personalized services. I specialize in...",
       img: "img/service/1.jpg",
+      descriptions: "Dive into the world of captivating web design with my personalized services. I specialize in crafting visually stunning and user-centric websites, ensuring a unique online presence for your brand. From concept to execution, I bring creativity and functionality together to make your website a standout experience for your audience.",
     },
     {
       id: 2,
@@ -16,6 +17,7 @@ const Service = () => {
       icon: "squares",
       desc: "Transform your vision into a reality with my expert web development services...",
       img: "img/service/2.jpg",
+      descriptions: "Transform your vision into a reality with my expert web development services. As a dedicated developer, I focus on building dynamic and efficient websites tailored to your needs. Whether it's responsive design or seamless navigation, I leverage the latest technologies to create high-performance web applications that make a lasting impact."
     },
     {
       id: 3,
@@ -23,6 +25,7 @@ const Service = () => {
       icon: "wordpress",
       desc: "Unleash the full potential of your WordPress site with my specialized development...",
       img: "img/service/3.jpg",
+      descriptions: "Unleash the full potential of your WordPress site with my specialized development services. I excel in creating custom themes, developing plugins, and optimizing sites for optimal performance. Your WordPress platform will not only be visually appealing but also user-friendly, providing a seamless experience for both you and your visitors."
     },
     {
       id: 4,
@@ -30,6 +33,7 @@ const Service = () => {
       icon: "squares",
       desc: "Elevate your brand's visual identity with my bespoke graphics design services...",
       img: "img/service/4.jpg",
+      descriptions: "Elevate your brand's visual identity with my bespoke graphics design services. From attention-grabbing logos to engaging social media graphics, I bring your brand to life visually. With a keen understanding of aesthetics, I design graphics that resonate with your target audience, leaving a lasting and memorable impression."
     },
     {
       id: 5,
