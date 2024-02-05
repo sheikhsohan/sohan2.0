@@ -83,7 +83,7 @@ const state = (props) => {
       { id: 2, sectionId: "resume", component: <Resume /> },
       { id: 3, sectionId: "portfolio", component: <Portfolio /> },
       { id: 4, sectionId: "service", component: <Service /> },
-      { id: 6, sectionId: "news", component: <Blog /> },
+      // { id: 6, sectionId: "news", component: <Blog /> },
       { id: 7, sectionId: "contact", component: <Contact /> },
     ],
     menus: [
@@ -92,7 +92,7 @@ const state = (props) => {
       { id: 2, href: "resume", title: "Resume", icon: "contacs" },
       { id: 3, href: "portfolio", title: "Portfolio", icon: "briefcase" },
       { id: 4, href: "service", title: "Service", icon: "gear" },
-      { id: 6, href: "news", title: "Blog", icon: "writing" },
+      // { id: 6, href: "news", title: "Blog", icon: "writing" },
       { id: 7, href: "contact", title: "Contact", icon: "letter" },
     ],
     aboutData: {
