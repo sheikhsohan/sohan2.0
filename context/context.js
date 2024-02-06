@@ -104,7 +104,7 @@ const state = (props) => {
       phone: "+880 18596 50372",
       bio: "! My name is Hadiuzzaman (Sohan). I am Web designer and Developer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.",
       address: "Gozendropur, Dumuria, Khulna",
-      title: "World leading Web Designner & Developer",
+      title: "World leading Web Developer",
       subTitle:
         "A passionate UI/UX Designer and Web Developer based In NYC, USA",
     },
