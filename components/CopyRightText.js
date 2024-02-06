@@ -18,7 +18,7 @@ const CopyRightText = ({ fixed = false, extraCls = false }) => {
           <div className="right">
             <ul>
               <li>
-                <a href="https://www.facebook.com/s.s0han" target="_blank">Facebook</a>
+                <a href="https://m.me/s.s0han" target="_blank">Facebook</a>
               </li>
               <li>
                 <a href="https://twitter.com/sheikh_sohann" target="_blank">X</a>
