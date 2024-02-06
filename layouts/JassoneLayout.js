@@ -121,7 +121,7 @@ const JassoneLayout = ({ darkLogo = true }) => {
             <div className="details">
               {/* <SocialIcons /> */}
               <div className="iknow_tm_button">
-                <a href="img/cv/1.jpg" download="">
+                <a href="img/cv/cv-main.pdf" download="">
                   Download CV
                 </a>
               </div>
