@@ -1940,9 +1940,9 @@ svg.CircularProgressbar {
 @media only screen and (min-width: 1400px) {
   .iknow_tm_portfolio.design-active .portfolio_list ul li {
   margin: 0px 0px 30px 0px;
-  width: 320px;
+  width: 350px;
   float: left;
-  padding-left: 20px;
+  padding-left: 18px;
   }
 }
 

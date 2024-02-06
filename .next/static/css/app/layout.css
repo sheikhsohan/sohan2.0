@@ -7989,9 +7989,9 @@ svg.CircularProgressbar {
 @media only screen and (min-width: 1400px) {
   .iknow_tm_portfolio.design-active .portfolio_list ul li {
   margin: 0px 0px 30px 0px;
-  width: 320px;
+  width: 350px;
   float: left;
-  padding-left: 20px;
+  padding-left: 18px;
   }
 }
 
@@ -12509,6 +12509,7 @@ input[type="number"] {
   visibility: visible;
   margin-top: 0px;
 }
+
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./node_modules/swiper/swiper.min.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/

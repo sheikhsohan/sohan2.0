@@ -19,12 +19,12 @@ const designProjects = [
   },
   {
     title: 'Coffee Banner Design',
-    imageUrl: '/img/psd/coffie_banner.jpg',
+    imageUrl: '/img/psd/valentines.jpg',
     svgUrl: '/img/svg/photoshop.svg',
   },
   {
     title: 'Coffee Banner Design',
-    imageUrl: '/img/psd/coffie_banner.jpg',
+    imageUrl: '/img/psd/marketing.jpg',
     svgUrl: '/img/svg/photoshop.svg',
   },
   // Add more design projects as needed
