@@ -24,7 +24,7 @@ const CopyRightText = ({ fixed = false, extraCls = false }) => {
                 <a href="https://twitter.com/sheikh_sohann" target="_blank">X</a>
               </li>
               <li>
-                <a href="#">Github</a>
+                <a href="https://wa.me/+8801836141078">WhatsApp</a>
               </li>
             </ul>
           </div>
