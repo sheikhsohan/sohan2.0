@@ -3,9 +3,16 @@
 .floating-button-container {
     position: fixed;
     right: 10px; /* Adjust as needed */
-    bottom: 10px; /* Adjust as needed */
+    bottom: 70px; /* Adjust as needed */
   }
-  
+  @media only screen and (max-width: 920px) {
+    .floating-button-container{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+
   .floating-button {
     position: relative;
     z-index: 1;

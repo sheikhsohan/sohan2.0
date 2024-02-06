@@ -32,7 +32,7 @@ const JassoneLayout = ({ darkLogo = true }) => {
           <div className="mobile_in">
             <div className="logo">
               <a href="#">
-                <img src="/img/logo/logo.png" alt="" />
+                <img src="/img/logo/logov4.png" alt="" />
               </a>
             </div>
             <div className="trigger" onClick={() => setMenuToggle(!menuToggle)}>
@@ -78,9 +78,9 @@ const JassoneLayout = ({ darkLogo = true }) => {
           <div className="logo">
             <a href="#">
               {darkLogo ? (
-                <img src="/img/logo/logo.png" alt="logo" />
+                <img src="/img/logo/logov4.png" alt="logo" />
               ) : (
-                <img src="/img/logo/logo.png" alt="logo" />
+                <img src="/img/logo/logov4.png" alt="logo" />
               )}
             </a>
           </div>

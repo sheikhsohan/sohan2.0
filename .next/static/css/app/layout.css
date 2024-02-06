@@ -6,9 +6,16 @@
 .floating-button-container {
     position: fixed;
     right: 10px; /* Adjust as needed */
-    bottom: 10px; /* Adjust as needed */
+    bottom: 70px; /* Adjust as needed */
   }
-  
+  @media only screen and (max-width: 920px) {
+    .floating-button-container{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+
   .floating-button {
     position: relative;
     z-index: 1;
@@ -9884,7 +9891,7 @@ input[type="number"] {
   padding-left: 50px;
 }
 .iknow_tm_sidebar_2 .logo img {
-  max-width: 135px;
+  max-width: 200px;
   max-height: 80px;
 }
 .iknow_tm_sidebar_2 .menu {
