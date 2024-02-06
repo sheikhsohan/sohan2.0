@@ -7,6 +7,7 @@ import "@css/style.css";
 import { Montserrat, Mulish, Poppins } from "next/font/google";
 import "./globals.css";
 import State from "/context/context";
+import FloatingButton from "@/components/CustomButton/FloatingButton";
 
 /** Meta data */
 export const metadata = {
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
             {children}
           </State>
           {/* <Cursor /> */}
+          <FloatingButton />
         </div>
       </body>
     </html>
