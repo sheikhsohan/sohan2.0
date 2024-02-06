@@ -7969,7 +7969,7 @@ svg.CircularProgressbar {
   float: left;
 }
 .iknow_tm_portfolio .portfolio_list ul {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px -30px;
   list-style-type: none;
 }
 .iknow_tm_portfolio .portfolio_list ul li {
@@ -7984,7 +7984,7 @@ svg.CircularProgressbar {
   margin: 0px 0px 30px 0px;
   width: 50%;
   float: left;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 @media only screen and (min-width: 1400px) {
   .iknow_tm_portfolio.design-active .portfolio_list ul li {
