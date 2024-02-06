@@ -1654,21 +1654,21 @@ body.dark .loader_line:after {
   padding-right: 20px;
 }
 .iknow_tm_resume .info_list ul li .short .job h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 .iknow_tm_resume .info_list ul li .short .job span {
-  font-size: 20px;
+  font-size: 16px;
   color: #555;
 }
 .iknow_tm_resume .info_list ul li .short .year span {
-  font-size: 20px;
+  font-size: 18px;
   color: #ff451b;
   display: inline-block;
   border: 1px solid #dddddd;
-  border-radius: 50px;
-  padding: 8px 35px 7px 35px;
+  border-radius: 10px;
+  padding: 5px 35px 6px 35px;
   white-space: nowrap;
 }
 .iknow_tm_resume .text {

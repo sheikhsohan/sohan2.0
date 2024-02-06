@@ -47,6 +47,33 @@ const Resume = () => {
     },
   ];
 
+  const course = [
+    {
+      id: 1,
+      courseName: "Full Responsive Web Design",
+      academy: "Certified By BDTask LTD.",
+      date: "2022",
+    },
+    {
+      id: 2,
+      courseName: "Complete Wordpress Website Development",
+      academy: "Certified By Udemy",
+      date: "2023",
+    },
+    {
+      id: 3,
+      courseName: "Complete PYTHON Programming for Beginners - 2023",
+      academy: "Certified By Udemy",
+      date: "2023",
+    },
+    {
+      id: 4,
+      courseName: "The Ultimate React Js Course 2024: Start from Scratch",
+      academy: "Certified By Udemy",
+      date: "2024",
+    },
+  ]
+
   const personalSkills = [
     { id: 1, title: "Time Management", value: "90" },
     { id: 2, title: "Effeciency", value: "70" },
@@ -101,7 +128,36 @@ const Resume = () => {
               ))}
             </ul>
           </div>
-          <div className="skills_list">
+          <div className="info_list">
+            <div className="iknow_tm_resume_title">
+              <h3>Courses</h3>
+              <span className="shape" />
+            </div>
+            <ul>
+              {course.map((course) => (
+                <li key={course.id}>
+                  <div className="list_inner">
+                    <div className="short">
+                      <div className="job">
+                        <h3>{course.courseName}</h3>
+                        <span>{course.academy}</span>
+                      </div>
+                      <div className="year">
+                        <span>{course.date}</span>
+                      </div>
+                    </div>
+                    <div className="text">
+                      <p>{course.desc}</p>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+        </div>
+        <div className="right">
+        <div className="skills_list">
             <div className="iknow_tm_resume_title">
               <h3>Programming Skills</h3>
               <span className="shape" />
@@ -128,8 +184,6 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="right">
           <div className="skills_list">
             <div className="iknow_tm_resume_title">
               <h3>Personal Skills</h3>
