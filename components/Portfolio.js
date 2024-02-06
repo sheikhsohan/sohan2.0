@@ -1,10 +1,12 @@
 import { context } from "@/context/context";
 import { useContext, useState } from "react";
+import DesignSection from "./DesignProjects";
 
 const Portfolio = () => {
   const { setPortfolioModal, modalToggle } = useContext(context);
   const [active, setActive] = useState("all");
   const activeLi = (value) => (active == value ? "current" : "");
+  const [designFilterActive, setDesignFilterActive] = useState(false);
   // const activeContent = (value) => {
   //   return active === "all" || active === value ? "show" : "hidden";
   // };
@@ -16,9 +18,14 @@ const Portfolio = () => {
       return active === "all" || active === value ? "show" : "hidden";
     }
   };
+  
 
   const handelClick = (value, e) => {
     e.preventDefault();
+    if (value === "design") {
+      // Toggle the design filter state
+      setDesignFilterActive(!designFilterActive);
+    }
     // First, set the "active" state to hide all items
     setActive("none");
     // Then, after a brief delay, set it to show all items
@@ -30,7 +37,7 @@ const Portfolio = () => {
   
 
   return (
-    <div className="iknow_tm_portfolio">
+    <div className={`iknow_tm_portfolio ${designFilterActive ? 'design-active' : ''}`}>
       <div className="iknow_tm_main_title">
         <span>Works</span>
         <h3>My works that I recently complete.</h3>
@@ -160,9 +167,7 @@ const Portfolio = () => {
           <li className={`wordpress ${activeContent("wordpress")}`}>
             <h3>Coming Soon...</h3>
           </li>
-          <li className={`design ${activeContent("design")}`}>
-            <h3>Coming Soon...</h3>
-          </li>
+          <DesignSection activeContent={activeContent} />
         </ul>
       </div>
     </div>

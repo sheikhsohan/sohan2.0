@@ -1920,15 +1920,33 @@ svg.CircularProgressbar {
   float: left;
 }
 .iknow_tm_portfolio .portfolio_list ul {
-  margin: 0px 0px 0px -30px;
+  margin: 0px 0px 0px 0px;
   list-style-type: none;
 }
 .iknow_tm_portfolio .portfolio_list ul li {
   margin: 0px 0px 30px 0px;
   width: 50%;
   float: left;
-  padding-left: 30px;
+  padding-left: 20px;
 }
+
+/* design */
+.iknow_tm_portfolio.design-active .portfolio_list ul li {
+  margin: 0px 0px 30px 0px;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+}
+@media only screen and (min-width: 1400px) {
+  .iknow_tm_portfolio.design-active .portfolio_list ul li {
+  margin: 0px 0px 30px 0px;
+  width: 300px;
+  float: left;
+  padding-left: 20px;
+  }
+}
+
+/* designn end */
 .iknow_tm_portfolio .portfolio_list ul li .list_inner {
   border: 2px solid coral;
   border-radius: 12px;
@@ -6574,4 +6592,60 @@ input[type="number"] {
   .iknow_tm_intro .demo {
     max-width: 90%;
   }
+}
+
+/* psd  */
+
+@media only screen and (min-width: 1400px) {
+  .iknow_tm_portfolio .portfolio_list ul li .list_inner_psd {
+    width: 300px;
+    float: left;
+  }
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd .image {
+  position: relative;
+  height: 400px;
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd .image img {
+  position: relative;
+  min-width: 50%;
+  opacity: 0;
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd .image .main {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: rgba(255, 69, 27, 0.72);
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.iknow_tm_portfolio .portfolio_list ul li .list_inner_psd:hover .svg {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0px;
 }
