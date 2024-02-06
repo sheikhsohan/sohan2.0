@@ -8,14 +8,12 @@ const designProjects = [
     imageUrl: '/img/psd/banner.jpg',
     svgUrl: '/img/svg/photoshop.svg',
     details: '#React #NextJs #Tailwind',
-    link: 'https://example.com/banner',
   },
   {
     title: 'Coffee Banner Design',
     imageUrl: '/img/psd/coffie_banner.jpg',
     svgUrl: '/img/svg/photoshop.svg',
     details: '#React #NextJs #Tailwind',
-    link: 'https://example.com/coffee-banner',
   },
   {
     title: 'Coffee Banner Design',
@@ -46,7 +44,7 @@ const DesignSection = ({ activeContent }) => {
               <span>{project.details}</span>
               <h3>{project.title}</h3>
             </div>
-            <a className="iknow_tm_full_link" href={project.link} target="_blank" />
+            {/* <a className="iknow_tm_full_link" href={project.link} target="_blank" /> */}
           </div>
         </li>
       ))}
