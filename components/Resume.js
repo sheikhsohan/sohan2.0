@@ -83,8 +83,9 @@ const Resume = () => {
   const programmingSkills = [
     { id: 1, title: "HTML & CSS", value: "95"},
     { id: 2, title: "Bootstrap 5", value: "90"},
-    { id: 3, title: "JavaScript", value: "80"},
-    { id: 3, title: "React", value: "70"},
+    { id: 3, title: "JavaScript", value: "70"},
+    { id: 4, title: "React", value: "75"},
+    { id: 5, title: "Python", value: "45"},
   ]
 
   const softwareSkills = [
