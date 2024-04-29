@@ -24,7 +24,7 @@ const Jassone = ({ activeMenu }) => {
               A passionate Web Designer and Web Developer based In Khulna, Bangladesh
             </p>
             <div className="iknow_tm_button yellow transition_link">
-              <a href="/app-release.apk" download>Download My App</a>
+              <a href="./app/app-release.apk" download>Download My App</a>
             </div>
           </div>
           <div className="right">
