@@ -18,13 +18,13 @@ const CopyRightText = ({ fixed = false, extraCls = false }) => {
           <div className="right">
             <ul>
               <li>
-                <a href="https://m.me/s.s0han" target="_blank">Facebook</a>
+                <a href="https://www.facebook.com/s.s0han" target="_blank">Facebook</a>
               </li>
               <li>
-                <a href="https://twitter.com/sheikh_sohann" target="_blank">X</a>
+                <a href="https://twitter.com/_sheikhsohan" target="_blank">X</a>
               </li>
               <li>
-                <a href="https://wa.me/+8801836141078">WhatsApp</a>
+                <a href="https://wa.me/+8801859650372">WhatsApp</a>
               </li>
             </ul>
           </div>
